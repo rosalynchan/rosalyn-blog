@@ -5,7 +5,7 @@ class RandomGen:
         self._random_nums = random_nums
         self._probabilities = self._normalize_probabilities(probabilities)
         self._cumulative_probs = self._calculate_cumulative_probs()
-        # test
+        # test test
 
     def _normalize_probabilities(self, probabilities):
         total = sum(probabilities)
